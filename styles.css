@@ -1,0 +1,53 @@
+:root{
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.416666;
+}
+
+h2{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+figcaption{
+    font-family: Georgia, serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.75;
+    font-style: italic;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.333333;
+}
+
+table{
+    width: 356px;
+    height: 216px;
+}
+
+li{
+    border-bottom: 1px solid #89B8C2;
+    border-collapse: collapse;
+}
+
+table > li:nth-child(odd) {
+
+}
